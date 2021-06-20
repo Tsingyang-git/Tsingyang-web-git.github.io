@@ -1,0 +1,242 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title>我的报告</title>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel='stylesheet' type='text/css' />
+    <link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script
+        type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+    <!--[if lt IE 9]>
+     <script src="js/html5shiv.js"></script>
+     <script src="js/respond.min.js"></script>
+<![endif]-->
+
+    <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+    <!-- start plugins -->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script>
+        $(function () {
+            var pull = $('#pull');
+            menu = $('nav ul');
+            menuHeight = menu.height();
+            $(pull).on('click', function (e) {
+                e.preventDefault();
+                menu.slideToggle();
+            });
+            $(window).resize(function () {
+                var w = $(window).width();
+                if (w > 320 && menu.is(':hidden')) {
+                    menu.removeAttr('style');
+                }
+            });
+        });
+    </script>
+    <!----font-Awesome----->
+    <link rel="stylesheet" href="fonts/css/font-awesome.min.css">
+    <!----font-Awesome----->
+    <!-- 引用Bootstrap的图标库 -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+	<!-- MDB icon -->
+	<link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon">
+	<!-- Font Awesome -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+	<!-- Bootstrap core CSS -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<!-- Material Design Bootstrap -->
+	<link rel="stylesheet" href="css/mdb.min.css">
+	<!-- Your custom styles (optional) -->
+	<link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <div class="header_bg" id="home">
+        <!-- start header -->
+        <div class="container">
+            <div class="row header text-center specials">
+                <div class="h_logo">
+                    <a href="index.html"><img src="images/logo.png" alt="" class="responsive" /></a>
+                </div>
+                <nav class="top-nav">
+                    <ul class="top-nav nav_list">
+                        <li><a href="alternate.html">alternate</a></li>
+                        <li><a href="moved.html">moved</a></li>
+                        <li class="logo page-scroll"><a title="home" href="index.html"><img src="images/logo.png" alt=""
+                                    class="responsive" /></a></li>
+                        <li class="page-scroll"><a href="events.html">events</a></li>
+                        <li><a href="report.html">my reports</a></li>
+                    </ul>
+                    <a href="#" id="pull"><img src="images/nav-icon.png" title="menu" /></a>
+                </nav>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+    </div>
+    <div class="blog">
+        <!-- start main -->
+        <div class="container">
+            
+            <!-- 做的啥 -->
+            <div class="main row">
+                <div class="col-md-12 blog_left">
+                    <h2><i class="bi bi-arrow-up-right-circle-fill"><strong> 做的啥？</strong></i></h2>
+                    <div class="blog_main">
+                        <img src="images/blog_pic1.jpg" alt="" class="blog_img img-responsive" />
+                        <h4><em>-What have I do?-</em></h4>
+                        <div class="blog_list pull-left">
+                            <ul class="list-unstyled">
+                                <li><i class="bi bi-calendar-date"></i><span>June 19, 2021</span></li>
+                            </ul>
+                        </div>
+                        <div class="clearfix"></div>
+                        <p style="font-size: medium;">
+                            中国女排的那些事儿。
+                        </p>
+                        <p style="font-size: medium;">
+                            包括中国女排一些代表性人物的新旧更迭、中国女排个人和团体的坚持与感动以及中国女排最近几年的赛事。
+                        </p>
+                        <p style="font-size: medium;">
+                            做此网页目的在于科普中国女排，普及排球运动。
+                            排球是三大球中受众最小并且门槛比较高的体育运动，刚上手打球的前两周是最难熬的。然而，运动者通常能够在入门之后感受到打排球的乐趣。
+                            作为一名热爱排球运动的大学生，我认为应该拓宽大众认识排球运动的渠道，让更多人认识排球运动并对中国女排精神有进一步的理解。
+                        </p>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+            <hr>
+            <!-- 开发过程 -->
+            <div class="main row">
+                <div class="col-md-12 blog_left">
+                    <h2 class="text-right"><i class="bi bi-arrow-down-left-circle-fill"><strong> 开发过程</strong></i></h2>
+                    <div class="blog_main">
+                        <img src="images/blog_pic1.jpg" alt="" class="blog_img img-responsive" />
+                        <h4 class="text-right"><em>-Development process- </em></h4>
+                        <div class="blog_list pull-left">
+                            <ul class="list-unstyled">
+                                <li><i class="bi bi-calendar-date"></i><span>June 19, 2021</span></li>
+                            </ul>
+                        </div>
+                        <div class="clearfix"></div>
+                        <p style="font-size: medium;">
+                            ①确定主题，并在白纸上进行初步的排版打稿；
+                        </p>
+                        <p style="font-size: medium;">
+                            ②创建项目，并将所有网页初始的导航条以及相互之间的链接等做好；
+                        </p>
+                        <p style="font-size: medium;">
+                            ③对所有页面按照已确定好的排版进行内容加工；
+                        </p>
+                        <p style="font-size: medium;">
+                            ④检查并优化。
+                        </p>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+            <hr>
+            <!-- 遇到的问题 & 如何解决 -->
+            <div class="main row">
+                <div class="col-md-12 blog_left">
+                    <h2><i class="bi bi-arrow-up-right-circle-fill"><strong> 遇到的问题 & 如何解决</strong></i></h2>
+                    <div class="blog_main">
+                        <img src="images/blog_pic1.jpg" alt="" class="blog_img img-responsive" />
+                        <h4><em>-Problem encountered & How to solve-</em></h4>
+                        <div class="blog_list pull-left">
+                            <ul class="list-unstyled">
+                                <li><i class="bi bi-calendar-date"></i><span>June 19, 2021</span></li>
+                            </ul>
+                        </div>
+                        <div class="clearfix"></div>
+                        <p style="font-size: medium;">
+                            Q：想引用更多其他的图标，但是又想避免根据系统弹出的提示一个一个试。
+                        </p>
+                        <p style="font-size: medium;">
+                            A：在浏览器上找了几圈发现了Bootstrap的一个图标库，在开头引用进来，就能根据图标给出的类来使用。
+                        </p>
+                        <p style="font-size: medium;">
+                            Q：图片与图标文字等元素排版改来改去都与预期不符。
+                        </p>
+                        <p style="font-size: medium;">
+                            A：栅格系统的行列层次没有分清楚，以及元素层次不清晰，明确层次概念之后再进行排版，基本上就只剩下图片大小和文字格式的问题了。
+                        </p>
+                        <p style="font-size: medium;">
+                            Q：关于图片大小的调整
+                        </p>
+                        <p style="font-size: medium;">
+                            A：在此之前都是直接用的浏览器上的图，即直接使用网址来进行图片引用，但对于大小有要求的图片，将图片大小调整后放入images文件夹再进行引用效果更佳。
+                        </p>
+                        <p style="font-size: medium;">
+                            Q：想使用一些没有接触过的样式。
+                        </p>
+                        <p style="font-size: medium;">
+                            A：在浏览器上查到了一些比较灵活的样式图，但由于网页制作并没有可循的明确样式，所以在这方面耗费了比较多的时间。
+                        </p>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+            <hr>
+            <!-- 未解决的问题 -->
+            <div class="main row">
+                <div class="col-md-12 blog_left">
+                    <h2 class="text-right"><i class="bi bi-arrow-down-left-circle-fill"><strong> 未解决的问题</strong></i></h2>
+                    <div class="blog_main">
+                        <img src="images/blog_pic1.jpg" alt="" class="blog_img img-responsive" />
+                        <h4 class="text-right"><em>-Unsolved problems-</em></h4>
+                        <div class="blog_list pull-left">
+                            <ul class="list-unstyled">
+                                <li><i class="bi bi-calendar-date"></i><span>June 19, 2021</span></li>
+                            </ul>
+                        </div>
+                        <div class="clearfix"></div>
+                        <p style="font-size: medium;">
+                            ①在开发过程中，一开始的排版过于复杂，实际上能做出来的效果却是有限的，因此会对初始排版设计作部分删改，实际上并没有完全实现开始的排版设想。
+                        </p>
+                        <p style="font-size: medium;">
+                            ②在内容加工方面，其实有更多能够加上的内容，但考虑到会破坏原有排版，就放弃了，现在想想应该是可以进行部分改动或者多添加页面完成的。
+                        </p>
+                        <p style="font-size: medium;">
+                            ③在总体样式设计方面，眼界不开阔，导致眼高手低，也没有更多的优化。
+                        </p>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+            <hr>
+            <!-- 总结 -->
+            <div class="main row">
+                <div class="col-md-12 blog_left">
+                    <h2><i class="bi bi-arrow-up-right-circle-fill"><strong> 总结</strong></i></h2>
+                    <div class="blog_main">
+                        <img src="images/blog_pic1.jpg" alt="" class="blog_img img-responsive" />
+                        <h4><em>-Summary-</em></h4>
+                        <div class="blog_list pull-left">
+                            <ul class="list-unstyled">
+                                <li><i class="bi bi-calendar-date"></i><span>June 19, 2021</span></li>
+                            </ul>
+                        </div>
+                        <div class="clearfix"></div>
+                        <p style="font-size: medium;">
+                            对于本次网页的内容制作，我个人还是比较满意的，基本上想要做的主题都有做出来，后面可能会考虑进一步添加更多相关的内容，使内容更加丰富多样。
+                        </p>
+                        <p style="font-size: medium;">
+                            但关于样式设计方面的成果，就不是特别理想。
+                            就像上面所说的，排版的理想化和实际有较大差别，因此会有对初始排版的二改甚至三改，在这个繁琐的过程中要不断地去修修补补，再去实践，是一件既消耗时间又耗费精力的事情。
+                            其次，由于排版的部分保留和修修补补，导致最后呈现的效果并不很理想，但也是尽心尽力之作了。
+                            总而言之，虽说是有成果了，但还有很大的进步优化空间，以后会去进行专门的优化工作。
+                        </p>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+    </div>
+    <!-- end main -->
+
+</body>
+
+</html>
